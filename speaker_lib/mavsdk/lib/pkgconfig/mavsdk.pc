@@ -1,0 +1,11 @@
+prefix=/work/install/aarch64-linux/mavsdk
+exec_prefix=/work/install/aarch64-linux/mavsdk/bin
+libdir=/work/install/aarch64-linux/mavsdk/lib
+includedir=/work/install/aarch64-linux/mavsdk/include
+
+Name: MAVSDK
+Description: API and library for MAVLink compatible systems written in C++17
+Version: e28090ca-dirty.e28090ca-dirty.e28090ca-dirty
+Requires.private: libcurl jsoncpp tinyxml2
+Libs: -L"${libdir}" -lmavsdk
+Cflags: -I"${includedir}" -I"${includedir}/mavsdk"

@@ -1,0 +1,14 @@
+2026-03-15-15-59-50.026 [INFO] 日志系统初始化成功
+2026-03-15-15-59-54.102 [ERROR] [main] GimbalController 启动失败
+2026-03-15-15-59-54.102 [INFO] [reply_pad] bind: tcp://192.168.100.8:18889
+2026-03-15-15-59-54.103 [INFO] [heartbeat] bind: tcp://192.168.100.8:18889
+2026-03-15-15-59-54.103 [INFO] [listen_device] 已开始监听机器狗心跳与任务状态
+2026-03-15-15-59-54.103 [INFO] [listen_pad] topic_prefix: zmq/4
+2026-03-15-15-59-54.103 [INFO] [listen_pad] connected: tcp://192.168.100.147:18888
+2026-03-15-16-00-20.065 [INFO] 日志系统初始化成功
+2026-03-15-16-00-24.118 [ERROR] [main] GimbalController 启动失败
+2026-03-15-16-00-24.118 [INFO] [heartbeat] bind: tcp://192.168.100.8:18889
+2026-03-15-16-00-24.119 [INFO] [reply_pad] bind: tcp://192.168.100.8:18889
+2026-03-15-16-00-24.119 [INFO] [listen_device] 已开始监听机器狗心跳与任务状态
+2026-03-15-16-00-24.119 [INFO] [listen_pad] topic_prefix: zmq/4
+2026-03-15-16-00-24.119 [INFO] [listen_pad] connected: tcp://192.168.100.147:18888

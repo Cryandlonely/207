@@ -1,0 +1,26 @@
+Pad:
+  ip: 192.168.100.147
+  port_sub: 18888
+  port_pub: 18889
+
+# 本机3588配置
+deviceIP: 192.168.100.8
+deviceId: 4
+
+# 机器狗
+dogIP: 192.168.168.100
+dogSendPort: 8085          # 发送命令到狗的端口
+dogListenPort: 8084        # 本地监听狗回传的端口
+
+# 无人机
+planIP: 192.168.168.102
+droneCmdPort: 8083         # 无人机命令接收端口
+droneHbPort: 8081          # 本地监听无人机心跳端口
+droneReplyPort: 8088       # 本地监听无人机回执端口
+
+# 云台
+gimbalIP: 192.168.100.13
+gimbalPort: 2000           # 云台 TCP 端口
+
+# 设备类型: 0-->无人狗  1-->无人机
+identy: 0

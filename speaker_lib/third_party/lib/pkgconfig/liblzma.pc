@@ -1,0 +1,20 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/work/install/aarch64-linux/third_party
+exec_prefix=/work/install/aarch64-linux/third_party
+libdir=/work/install/aarch64-linux/third_party/lib
+includedir=/work/install/aarch64-linux/third_party/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.5
+Cflags: -I${includedir}
+Cflags.private: -DLZMA_API_STATIC
+Libs: -L${libdir} -llzma
+Libs.private:  
